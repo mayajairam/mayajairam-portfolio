@@ -1,7 +1,7 @@
 import { HeroSection } from './components/HeroSection';
 import { SkillsSection } from './components/SkillsSection';
 import { ProjectsSection } from './components/ProjectsSection';
-import { WebCapabilitiesSection } from './components/WebCapabilitiesSection';
+import { CoursesSection } from './components/CoursesSection';
 import { ContactSection } from './components/ContactSection';
 
 export default function WebDeveloperPortfolio() {
@@ -10,7 +10,7 @@ export default function WebDeveloperPortfolio() {
 			<HeroSection />
 			<SkillsSection />
 			<ProjectsSection />
-			<WebCapabilitiesSection />
+			<CoursesSection />
 			<ContactSection />
 		</main>
 	);

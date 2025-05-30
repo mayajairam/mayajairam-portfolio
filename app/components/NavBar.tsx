@@ -10,7 +10,7 @@ export const NavBar = () => {
           Maya Jairam
         </a>
         <div className="flex gap-6 text-sm font-medium text-gray-300">
-          <a href="#skills" className="hover:text-white transition">About</a>
+          <a href="#skills" className="hover:text-white transition">Skills</a>
           <a href="#projects" className="hover:text-white transition">Projects</a>
           <a href="/MayaJairamResumeFeb2025.pdf" target="_blank" className="hover:text-white transition">Resume</a>
           <a href="#contact" className="hover:text-white transition">Contact</a>

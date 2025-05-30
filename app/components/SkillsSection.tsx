@@ -1,30 +1,31 @@
 import React from 'react';
+import { FaRocket, FaHammer, FaBrain, FaStar, FaDatabase} from "react-icons/fa";
 
 export const SkillsSection = () => {
   const categories = [
     {
       category: 'Languages & Frameworks',
-      icon: '🧠',
+      icon: <FaBrain className="text-blue-500"/>,
       skills: ['JavaScript', 'TypeScript', 'Python', 'React', 'Next.js', 'Flask'],
     },
     {
       category: 'Backend & Databases',
-      icon: '⚙️',
+      icon: <FaDatabase className="text-blue-500"/>,
       skills: ['Node.js', 'PostgreSQL', 'MongoDB', 'Prisma', 'REST APIs'],
     },
     {
       category: 'DevOps & Hosting',
-      icon: '🚀',
+      icon: <FaRocket className="text-blue-500"/>,
       skills: ['Docker', 'Vercel', 'Render', 'AWS (EC2, S3)'],
     },
     {
       category: 'Tools & Practices',
-      icon: '🛠️',
+      icon: <FaHammer className="text-blue-500"/>,
       skills: ['Git', 'Figma', 'Jira', 'CI/CD', 'Prompt Engineering'],
     },
     {
       category: 'Bonus Skills',
-      icon: '✨',
+      icon: <FaStar className="text-blue-500"/>,
       skills: ['Web Scraping', 'OpenAI API', 'Selenium', 'BeautifulSoup'],
     },
   ];
