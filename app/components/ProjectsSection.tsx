@@ -18,13 +18,13 @@ export const ProjectsSection = () => {
 							title: 'Detecting Biomarkers in Ovarian Cancer',
 							description: 'Built a Random Forest classifier that categorized tumor subtypes with 90% accuracy using 5,000+ genomic samples. Identified 50+ genes relevant to therapy development.',
 							techDetails: ['Python', 'Pandas', 'Scikit-learn', 'Random Forest', 'Model Optimization'],
-							image: '/code.jpg',
+							image: '/biomarkers.jpg',
 						},
 						{
 							title: 'AI Chatbot for Customer Support – Instalily.ai',
 							description: 'Scraped product info and FAQs, engineered structured prompts, and integrated OpenAI API to create a smart, automated chatbot for customer support.',
 							techDetails: ['OpenAI API', 'Prompt Engineering', 'Web Scraping'],
-							image: '/code.jpg',
+							image: '/chatbot.jpg',
 						},
 						{
 							title: 'Improving LLM Citation Accuracy – Princeton Research',
