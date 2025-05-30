@@ -45,7 +45,7 @@ export const HeroSection = () => {
   {/* Profile Picture */}
   <div className="relative z-10">
     <Image
-      src="/portfolio_profile.jpg" // replace with your actual image path
+      src="/portfolio_profile.JPEG" // replace with your actual image path
       alt="Maya Jairam"
 	  width={128}
 	  height={128}
