@@ -47,8 +47,8 @@ export const HeroSection = () => {
     <Image
       src="/portfolio_profile.JPEG" // replace with your actual image path
       alt="Maya Jairam"
-	  width={128}
-	  height={128}
+	  width={160}
+	  height={160}
       className="w-28 h-28 sm:w-32 sm:h-32 rounded-full border-4 border-blue-500 shadow-xl object-cover"
     />
   </div>
