@@ -1,5 +1,6 @@
 import React from 'react';
 import ParticlesBackground from './ParticlesBackground';
+import Image from 'next/image';
 
 export const HeroSection = () => {
 	return (
@@ -43,9 +44,11 @@ export const HeroSection = () => {
 <div className="flex flex-col items-center gap-4 px-4 sm:px-0">
   {/* Profile Picture */}
   <div className="relative z-10">
-    <img
+    <Image
       src="/portfolio_profile.jpg" // replace with your actual image path
       alt="Maya Jairam"
+	  width={128}
+	  height={128}
       className="w-28 h-28 sm:w-32 sm:h-32 rounded-full border-4 border-blue-500 shadow-xl object-cover"
     />
   </div>
