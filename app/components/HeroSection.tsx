@@ -112,10 +112,10 @@ export const HeroSection = () => {
 					{/* Social Links */}
 					<div className="flex justify-center gap-4 sm:gap-6 mt-8 sm:mt-12">
 						{[
-							{ name: 'GitHub', icon: '🐙', href: '#' },
-							{ name: 'LinkedIn', icon: '💼', href: '#' },
-							{ name: 'Twitter', icon: '🐦', href: '#' },
-							{ name: 'Blog', icon: '✍️', href: '#' },
+							{ name: 'GitHub', icon: '👩‍💼', href: '#' },
+							{ name: 'LinkedIn', icon: '🪄', href: '#' },
+							{ name: 'Twitter', icon: '🛠️', href: '#' },
+							{ name: 'Blog', icon: '🌐', href: '#' },
 						].map((social) => (
 							<a key={social.name} href={social.href} className="group relative p-2 sm:p-3 hover:text-blue-400 transition-colors" aria-label={social.name}>
 								<span className="text-xl sm:text-2xl group-hover:scale-110 transition-transform inline-block">{social.icon}</span>
