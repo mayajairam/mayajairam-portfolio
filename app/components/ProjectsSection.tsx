@@ -12,7 +12,7 @@ export const ProjectsSection = () => {
 							title: 'NJ Food Systems Resource Directory',
 							description: 'Full-stack web app to manage food resources across New Jersey. Included advanced search, CMS approval flow, and secure login via Auth0.',
 							techDetails: ['Flask', 'PostgreSQL', 'Auth0', 'SQLAlchemy', 'Responsive UI'],
-							image: '/code.jpg',
+							image: '/njfdc_project.jpg',
 						},
 						{
 							title: 'Detecting Biomarkers in Ovarian Cancer',
