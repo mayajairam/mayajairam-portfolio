@@ -69,7 +69,7 @@ export const HeroSection = () => {
 						<div className="flex flex-col items-center gap-4">
 							<div className="flex items-center gap-3">
 								<span className="h-[1px] w-8 sm:w-12 bg-blue-500"></span>
-								<h2 className="text-xl sm:text-2xl font-light tracking-wide text-blue-400">Software Engineer | Princeton 24'</h2>
+								<h2 className="text-xl sm:text-2xl font-light tracking-wide text-blue-400">Software Engineer | Princeton &apos;24</h2>
 								<span className="h-[1px] w-8 sm:w-12 bg-blue-500"></span>
 							</div>
 							<p className="text-base sm:text-lg text-gray-400 max-w-2xl px-4 sm:px-0">
