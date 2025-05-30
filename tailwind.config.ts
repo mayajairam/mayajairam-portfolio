@@ -14,5 +14,11 @@ export default {
       },
     },
   },
+  compilerOptions: {
+  "baseUrl": ".",
+  "paths": {
+    "@/*": ["./*"]
+  }
+},
   plugins: [],
 } satisfies Config;

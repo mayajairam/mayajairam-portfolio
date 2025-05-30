@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
+import { NavBar } from './components/NavBar';
 
 const geistSans = Geist({
 	variable: '--font-geist-sans',
@@ -13,39 +14,33 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: '[Your Name] - Web Developer',
+	title: 'Maya Jairam - Software Engineer',
 	description:
-		'Welcome to my portfolio! I am a passionate web developer creating modern, responsive, and user-friendly websites. Specializing in frontend technologies and interactive user interfaces, I build engaging web experiences that make an impact.',
+		'Portfolio of Maya Jairam, a full-stack engineer with experience in the MERN stack, Flask, Electron, and AWS.',
 	keywords: [
-		'Web Developer',
-		'Frontend Developer',
-		'React Developer',
+		'Software Engineer',
+		'MERN Stack',
+		'React',
 		'Next.js',
-		'JavaScript',
-		'TypeScript',
-		'HTML5',
-		'CSS3',
-		'Responsive Design',
-		'UI/UX',
-		'Web Accessibility',
-		'Performance Optimization',
-		'Modern Web Development',
-		'Progressive Web Apps',
-		'[Your Name]',
+		'PostgreSQL',
+		'Flask',
+		'Electron',
+		'Portfolio',
+		'Maya Jairam',
 	],
-	authors: [{ name: '[Your Name]' }],
-	creator: '[Your Name]',
+	authors: [{ name: 'Maya Jairam' }],
+	creator: 'Maya Jairam',
 	openGraph: {
-		title: '[Your Name] - Web Developer Portfolio',
-		description: 'Passionate web developer crafting modern and engaging digital experiences. Explore my projects and web development expertise.',
-		url: 'https://your-domain.com',
-		siteName: '[Your Name] - Portfolio',
+		title: 'Maya Jairam - Portfolio',
+		description: 'Explore the work of Maya Jairam, a full-stack engineer from Princeton University.',
+		url: 'https://your-vercel-site.vercel.app',
+		siteName: 'Maya Jairam - Portfolio',
 		images: [
 			{
 				url: '/og-image.jpg',
 				width: 1200,
 				height: 630,
-				alt: '[Your Name] - Web Developer Portfolio',
+				alt: 'Maya Jairam - Portfolio',
 			},
 		],
 		locale: 'en_US',
@@ -53,9 +48,9 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: '[Your Name] - Web Developer',
-		description: 'Passionate web developer crafting modern and engaging digital experiences. Explore my projects and web development expertise.',
-		creator: '@yourusername',
+		title: 'Maya Jairam - Software Engineer',
+		description: 'Explore the work of Maya Jairam, a full-stack engineer from Princeton University.',
+		creator: '@mayajairam',
 		images: ['/og-image.jpg'],
 	},
 	robots: {
@@ -78,7 +73,10 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
+			<body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+				<NavBar />
+				<main>{children}</main>
+			</body>
 		</html>
 	);
 }
