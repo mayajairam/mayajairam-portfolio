@@ -25,7 +25,7 @@ export const WorkExperienceSection = () => {
   ];
 
   return (
-    <section className="py-16 px-4 bg-[#0a192f] text-white">
+    <section id="work" className="py-16 px-4 bg-[#0a192f] text-white">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-blue-400 mb-12">
           Experience Timeline
