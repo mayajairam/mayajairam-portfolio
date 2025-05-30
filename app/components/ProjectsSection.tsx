@@ -30,7 +30,7 @@ export const ProjectsSection = () => {
 							title: 'Improving LLM Citation Accuracy – Princeton Research',
 							description: 'Analyzed and refined prompt strategies to enhance citation fluency and factuality in ChatGPT-generated outputs. Used the ALCE benchmark to evaluate citation performance, with custom rephrasing pipelines that improved citation quality across datasets.',
 							techDetails: ['Prompt Engineering', 'OpenAI API', 'Python', 'ALCE Benchmark', 'Qualitative Evaluation'],
-							image: '/code.jpg'
+							image: '/alce.jpg'
 						},
 
 					].map((project) => (
